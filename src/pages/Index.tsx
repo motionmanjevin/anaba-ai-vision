@@ -32,7 +32,7 @@ const projects: Project[] = [
     video: "/assets/videos/inspectre-ai/demo.mp4",
     techStack: ["Python", "TensorFlow", "OpenCV", "VideoLLama", "Qwen3.5","c++/CUDA"],
     category: "AI",
-    overview: "Inspectre AI is a cutting-edge computer vision system that leverages deep learning to perform intelligent inspection and analysis across various domains. The system combines state-of-the-art neural networks with real-time processing capabilities.",
+    overview: "Inspectre is an AI surveillance platform that lets users query security footage using natural language and set smart alerts based on faces, actions, and behaviors—turning cameras from passive recorders into proactive intelligence systems.",
     role: "Lead AI Engineer - Designed and implemented the core deep learning architecture, developed the computer vision pipeline, and optimized model performance for real-time inference.",
     challenges: "The main challenge was achieving real-time performance while maintaining high accuracy. We solved this through model optimization techniques including quantization, pruning, and efficient data preprocessing pipelines.",
     github: "https://github.com",
