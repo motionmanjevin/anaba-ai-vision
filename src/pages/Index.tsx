@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -29,7 +28,8 @@ const projects: Project[] = [
     id: "inspectre-ai",
     title: "Inspectre AI",
     description: "Deep learning computer vision system for intelligent inspection and analysis",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=800&h=600&fit=crop",
+    image: "/assets/images/inspectre-ai/main.jpg",
+    video: "/assets/videos/inspectre-ai/demo.mp4",
     techStack: ["Python", "TensorFlow", "OpenCV", "FastAPI", "Docker"],
     category: "AI",
     overview: "Inspectre AI is a cutting-edge computer vision system that leverages deep learning to perform intelligent inspection and analysis across various domains. The system combines state-of-the-art neural networks with real-time processing capabilities.",
@@ -38,16 +38,17 @@ const projects: Project[] = [
     github: "https://github.com",
     demo: "https://demo.inspectreai.com",
     gallery: [
-      "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=800&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop"
+      "/assets/images/inspectre-ai/main.jpg",
+      "/assets/images/inspectre-ai/gallery-1.jpg",
+      "/assets/images/inspectre-ai/gallery-2.jpg"
     ]
   },
   {
     id: "sprout-scan",
     title: "Sprout Scan",
     description: "AI-powered plant health prediction system for precision agriculture",
-    image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=800&h=600&fit=crop",
+    image: "/assets/images/sprout-scan/main.jpg",
+    video: "/assets/videos/sprout-scan/demo.mp4",
     techStack: ["PyTorch", "Python", "React", "AWS", "TensorFlow Lite"],
     category: "AI",
     overview: "Sprout Scan revolutionizes agriculture through AI-driven plant health monitoring. Using computer vision and machine learning, it predicts diseases early and optimizes crop yields.",
@@ -55,15 +56,16 @@ const projects: Project[] = [
     challenges: "Working with diverse plant species and varying environmental conditions required extensive data augmentation and transfer learning techniques to ensure model robustness across different scenarios.",
     github: "https://github.com",
     gallery: [
-      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=800&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=800&h=600&fit=crop"
+      "/assets/images/sprout-scan/main.jpg",
+      "/assets/images/sprout-scan/gallery-1.jpg"
     ]
   },
   {
     id: "traffic-simulation",
     title: "Traffic Flow Simulation",
     description: "Advanced traffic pattern analysis and optimization system",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop",
+    image: "/assets/images/traffic-simulation/main.jpg",
+    video: "/assets/videos/traffic-simulation/demo.mp4",
     techStack: ["Python", "NumPy", "Matplotlib", "Simulation", "Data Analysis"],
     category: "Simulation",
     overview: "A comprehensive traffic simulation system that models complex urban traffic patterns, optimizes signal timing, and predicts congestion hotspots using advanced mathematical models.",
@@ -71,15 +73,16 @@ const projects: Project[] = [
     challenges: "Modeling realistic traffic behavior required implementing complex agent-based systems and optimizing computational efficiency for large-scale urban simulations.",
     github: "https://github.com",
     gallery: [
-      "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop"
+      "/assets/images/traffic-simulation/main.jpg",
+      "/assets/images/traffic-simulation/gallery-1.jpg"
     ]
   },
   {
     id: "quantum-photon",
     title: "Quantum Photon Transceiver",
     description: "Quantum simulation of photon behavior and quantum communication protocols",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=600&fit=crop",
+    image: "/assets/images/quantum-photon/main.jpg",
+    video: "/assets/videos/quantum-photon/demo.mp4",
     techStack: ["Qiskit", "Python", "Quantum Computing", "Linear Algebra", "Physics"],
     category: "Quantum",
     overview: "An advanced quantum simulation system that models photon behavior in quantum communication protocols, exploring the fundamentals of quantum information transfer and entanglement.",
@@ -87,8 +90,27 @@ const projects: Project[] = [
     challenges: "Translating complex quantum mechanics into understandable simulations while maintaining scientific accuracy required deep understanding of both quantum physics and computational methods.",
     github: "https://github.com",
     gallery: [
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?w=800&h=600&fit=crop"
+      "/assets/images/quantum-photon/main.jpg",
+      "/assets/images/quantum-photon/gallery-1.jpg"
+    ]
+  },
+  {
+    id: "csgo-aimbot",
+    title: "CS:GO Neural Network Aimbot",
+    description: "Advanced neural network-based aim assistance system using computer vision",
+    image: "/assets/images/csgo-aimbot/main.jpg",
+    video: "/assets/videos/csgo-aimbot/demo.mp4",
+    techStack: ["Python", "PyTorch", "OpenCV", "YOLO", "Real-time Processing", "Computer Vision"],
+    category: "AI",
+    overview: "A sophisticated neural network system that uses computer vision and deep learning to analyze game frames in real-time. The system demonstrates advanced object detection, tracking algorithms, and predictive modeling for competitive gaming scenarios.",
+    role: "AI Research Developer - Designed and implemented the neural network architecture, developed real-time object detection pipeline, optimized inference speed for sub-millisecond latency, and created training datasets for model accuracy.",
+    challenges: "The primary challenges included achieving real-time performance with sub-10ms latency, handling dynamic lighting conditions, distinguishing between player models and environment objects, and implementing smooth tracking algorithms that account for player movement prediction.",
+    github: "https://github.com",
+    gallery: [
+      "/assets/images/csgo-aimbot/main.jpg",
+      "/assets/images/csgo-aimbot/detection-demo.jpg",
+      "/assets/images/csgo-aimbot/neural-network-arch.jpg",
+      "/assets/images/csgo-aimbot/performance-metrics.jpg"
     ]
   }
 ];
@@ -189,7 +211,7 @@ const Index = () => {
               <div>
                 <div className="w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-violet-500/30 mb-8 md:mb-0">
                   <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                    src="/assets/images/profile/headshot.jpg"
                     alt="Israel Kevin Anaba"
                     className="w-full h-full object-cover"
                   />
@@ -230,7 +252,7 @@ const Index = () => {
           <h2 className="font-poppins text-4xl font-bold text-center mb-16 gradient-text">
             Featured Projects
           </h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {projects.map((project, index) => (
               <Card
                 key={project.id}
