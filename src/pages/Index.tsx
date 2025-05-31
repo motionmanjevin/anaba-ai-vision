@@ -28,41 +28,47 @@ const projects: Project[] = [
     id: "inspectre-ai",
     title: "Inspectre AI",
     description: "Deep learning computer vision system for intelligent inspection and analysis",
-    image: "/assets/images/inspectre-ai/main.jpg",
+    image: "/assets/images/inspectre-ai/gg4.png",
     video: "/assets/videos/inspectre-ai/demo.mp4",
-    techStack: ["Python", "TensorFlow", "OpenCV", "FastAPI", "Docker"],
+    techStack: ["Python", "TensorFlow", "OpenCV", "VideoLLama", "Qwen3.5","c++/CUDA"],
     category: "AI",
     overview: "Inspectre AI is a cutting-edge computer vision system that leverages deep learning to perform intelligent inspection and analysis across various domains. The system combines state-of-the-art neural networks with real-time processing capabilities.",
     role: "Lead AI Engineer - Designed and implemented the core deep learning architecture, developed the computer vision pipeline, and optimized model performance for real-time inference.",
     challenges: "The main challenge was achieving real-time performance while maintaining high accuracy. We solved this through model optimization techniques including quantization, pruning, and efficient data preprocessing pipelines.",
     github: "https://github.com",
-    demo: "https://demo.inspectreai.com",
+    demo: "https://inspectre-ai.vercel.app/",
     gallery: [
-      "/assets/images/inspectre-ai/main.jpg",
-      "/assets/images/inspectre-ai/gallery-1.jpg",
-      "/assets/images/inspectre-ai/gallery-2.jpg"
+      "/assets/images/inspectre-ai/gg1.png",
+      "/assets/images/inspectre-ai/gg2.png",
+      "/assets/images/inspectre-ai/gg3.png",
+      "/assets/images/inspectre-ai/gg4.png",
+      "/assets/images/inspectre-ai/gg5.png",
+      "/assets/images/inspectre-ai/gg6.png",
+      "/assets/images/inspectre-ai/gg7.png",
+      "/assets/images/inspectre-ai/gg8.png"
     ]
   },
   {
     id: "sprout-scan",
     title: "Sprout Scan",
-    description: "AI-powered plant health prediction system for precision agriculture",
-    image: "/assets/images/sprout-scan/main.jpg",
+    description: "AI-powered app that scans food to give user tailored health details about the food",
+    image: "/assets/images/sprout-scan/rw2.png",
     video: "/assets/videos/sprout-scan/demo.mp4",
     techStack: ["PyTorch", "Python", "React", "AWS", "TensorFlow Lite"],
     category: "AI",
-    overview: "Sprout Scan revolutionizes agriculture through AI-driven plant health monitoring. Using computer vision and machine learning, it predicts diseases early and optimizes crop yields.",
-    role: "Full-Stack AI Developer - Built the complete ML pipeline from data collection to deployment, created the mobile-friendly interface, and integrated IoT sensors for real-time monitoring.",
-    challenges: "Working with diverse plant species and varying environmental conditions required extensive data augmentation and transfer learning techniques to ensure model robustness across different scenarios.",
+    overview: " Instead of manually inputting food items, users simply snap a picture of their meal, and Sprout Scan's AI analyzes the image to estimate calories, protein, carbs, and fat with impressive accuracy. It aims to make tracking dietary intake effortless and integrate seamlessly with health and fitness goals.",
+    role: "Full-Stack AI Developer - Built the complete ML pipeline from data collection to deployment, created the mobile-friendly interface",
+    challenges: "Working with diverse food types and varying food arrangement required extensive data augmentation and transfer learning techniques to ensure model robustness across different scenarios.",
     github: "https://github.com",
     gallery: [
-      "/assets/images/sprout-scan/main.jpg",
-      "/assets/images/sprout-scan/gallery-1.jpg"
+      "/assets/images/sprout-scan/main.png",
+      "/assets/images/sprout-scan/rw1.png",
+      "/assets/images/sprout-scan/rw2.png"
     ]
   },
   {
     id: "traffic-simulation",
-    title: "Traffic Flow Simulation",
+    title: "Traffic Flow Optimization",
     description: "Advanced traffic pattern analysis and optimization system",
     image: "/assets/images/traffic-simulation/main.jpg",
     video: "/assets/videos/traffic-simulation/demo.mp4",
@@ -73,15 +79,15 @@ const projects: Project[] = [
     challenges: "Modeling realistic traffic behavior required implementing complex agent-based systems and optimizing computational efficiency for large-scale urban simulations.",
     github: "https://github.com",
     gallery: [
-      "/assets/images/traffic-simulation/main.jpg",
-      "/assets/images/traffic-simulation/gallery-1.jpg"
+      "/assets/images/traffic-simulation/trans1.png",
+      "/assets/images/traffic-simulation/trans2.png"
     ]
   },
   {
     id: "quantum-photon",
     title: "Quantum Photon Transceiver",
     description: "Quantum simulation of photon behavior and quantum communication protocols",
-    image: "/assets/images/quantum-photon/main.jpg",
+    image: "/assets/images/quantum-photon/Picture1.jpg",
     video: "/assets/videos/quantum-photon/demo.mp4",
     techStack: ["Qiskit", "Python", "Quantum Computing", "Linear Algebra", "Physics"],
     category: "Quantum",
@@ -90,15 +96,16 @@ const projects: Project[] = [
     challenges: "Translating complex quantum mechanics into understandable simulations while maintaining scientific accuracy required deep understanding of both quantum physics and computational methods.",
     github: "https://github.com",
     gallery: [
-      "/assets/images/quantum-photon/main.jpg",
-      "/assets/images/quantum-photon/gallery-1.jpg"
+      "/assets/images/quantum-photon/Picture1.jpg",
+      "/assets/images/quantum-photon/Picture2.jpg",
+      "/assets/images/quantum-photon/Picture3.png"
     ]
   },
   {
     id: "csgo-aimbot",
     title: "CS:GO Neural Network Aimbot",
     description: "Advanced neural network-based aim assistance system using computer vision",
-    image: "/assets/images/csgo-aimbot/main.jpg",
+    image: "/assets/images/csgo-aimbot/pg1.png",
     video: "/assets/videos/csgo-aimbot/demo.mp4",
     techStack: ["Python", "PyTorch", "OpenCV", "YOLO", "Real-time Processing", "Computer Vision"],
     category: "AI",
@@ -107,10 +114,10 @@ const projects: Project[] = [
     challenges: "The primary challenges included achieving real-time performance with sub-10ms latency, handling dynamic lighting conditions, distinguishing between player models and environment objects, and implementing smooth tracking algorithms that account for player movement prediction.",
     github: "https://github.com",
     gallery: [
-      "/assets/images/csgo-aimbot/main.jpg",
-      "/assets/images/csgo-aimbot/detection-demo.jpg",
-      "/assets/images/csgo-aimbot/neural-network-arch.jpg",
-      "/assets/images/csgo-aimbot/performance-metrics.jpg"
+      "/assets/images/csgo-aimbot/main.png",
+      "/assets/images/csgo-aimbot/detection-demo.png",
+      "/assets/images/csgo-aimbot/pg1.png",
+      "/assets/images/csgo-aimbot/pg2.png"
     ]
   }
 ];
@@ -118,7 +125,7 @@ const projects: Project[] = [
 const skills = [
   "Python", "TensorFlow", "PyTorch", "Machine Learning", "Deep Learning",
   "Computer Vision", "NLP", "Quantum Computing", "React", "FastAPI",
-  "Docker", "AWS", "Git", "NumPy", "Pandas"
+  "Docker", "AWS", "Git", "NumPy","Cuda", "Pandas", "c++"
 ];
 
 const Index = () => {
@@ -224,7 +231,7 @@ const Index = () => {
                   innovative systems that solve real-world problems.
                 </p>
                 <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-                  My work spans from agricultural AI systems to quantum simulations, always pushing the boundaries 
+                  My work spans from AI systems to quantum simulations, always pushing the boundaries 
                   of what's possible with machine learning and emerging technologies.
                 </p>
                 <div className="mb-8">
@@ -319,7 +326,7 @@ const Index = () => {
                     <Github className="w-6 h-6" />
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/israel-kevin-anaba-a48610331/"
                     className="p-3 rounded-full bg-white/10 border border-white/20 hover:bg-violet-500/20 transition-colors duration-200"
                   >
                     <Linkedin className="w-6 h-6" />
